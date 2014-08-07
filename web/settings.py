@@ -24,6 +24,12 @@ DEBUG = True
 
 TEMPLATE_DEBUG = True
 
+cur_path = os.getcwd()
+
+TEMPLATE_DIRS = (
+    cur_path+'/web/html',
+)
+
 ALLOWED_HOSTS = []
 
 
